@@ -1,0 +1,12 @@
+#define SSID "NazwaWiFi"
+#define WIFI_PASSWORD "tajnehaslo"
+#define MQTT_SERVER "192.168.1.200"
+#define MQTT_PORT 1883
+#define MQTT_CLIENT_ID "WF1"
+#define MQTT_USER "usermqtt"
+#define MQTT_PASSWORD "passwordmqtt"
+#define MQTT_WILL_QOS 1
+#define MQTT_WILL_TOPIC "wf1/status"
+#define MQTT_WILL_MESSAGE "offline"
+#define MQTT_WILL_RETAIN true
+#define MQTT_CLEAN_SESSION true
